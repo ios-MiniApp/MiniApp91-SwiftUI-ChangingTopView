@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		8730E6CF28C85F4800C73262 /* MiniApp91_SwiftUI_ChangingTopViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6CE28C85F4800C73262 /* MiniApp91_SwiftUI_ChangingTopViewApp.swift */; };
-		8730E6D128C85F4800C73262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6D028C85F4800C73262 /* ContentView.swift */; };
 		8730E6D328C85F4900C73262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8730E6D228C85F4900C73262 /* Assets.xcassets */; };
 		8730E6D628C85F4900C73262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8730E6D528C85F4900C73262 /* Preview Assets.xcassets */; };
+		8730E6DD28C85F6E00C73262 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6DC28C85F6E00C73262 /* MainView.swift */; };
+		8730E6DF28C85F8600C73262 /* SubViewA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6DE28C85F8600C73262 /* SubViewA1.swift */; };
+		8730E6E128C85F9200C73262 /* SubViewA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6E028C85F9200C73262 /* SubViewA2.swift */; };
+		8730E6E328C85F9D00C73262 /* SubViewA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6E228C85F9D00C73262 /* SubViewA3.swift */; };
+		8730E6E528C85FA800C73262 /* SubViewB1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6E428C85FA800C73262 /* SubViewB1.swift */; };
+		8730E6E728C85FB800C73262 /* SubViewB2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6E628C85FB800C73262 /* SubViewB2.swift */; };
+		8730E6E928C85FC100C73262 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730E6E828C85FC100C73262 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8730E6CB28C85F4800C73262 /* MiniApp91-SwiftUI-ChangingTopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp91-SwiftUI-ChangingTopView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8730E6CE28C85F4800C73262 /* MiniApp91_SwiftUI_ChangingTopViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniApp91_SwiftUI_ChangingTopViewApp.swift; sourceTree = "<group>"; };
-		8730E6D028C85F4800C73262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8730E6D228C85F4900C73262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8730E6D528C85F4900C73262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8730E6DC28C85F6E00C73262 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8730E6DE28C85F8600C73262 /* SubViewA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewA1.swift; sourceTree = "<group>"; };
+		8730E6E028C85F9200C73262 /* SubViewA2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewA2.swift; sourceTree = "<group>"; };
+		8730E6E228C85F9D00C73262 /* SubViewA3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewA3.swift; sourceTree = "<group>"; };
+		8730E6E428C85FA800C73262 /* SubViewB1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewB1.swift; sourceTree = "<group>"; };
+		8730E6E628C85FB800C73262 /* SubViewB2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewB2.swift; sourceTree = "<group>"; };
+		8730E6E828C85FC100C73262 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +64,15 @@
 			isa = PBXGroup;
 			children = (
 				8730E6CE28C85F4800C73262 /* MiniApp91_SwiftUI_ChangingTopViewApp.swift */,
-				8730E6D028C85F4800C73262 /* ContentView.swift */,
+				8730E6E828C85FC100C73262 /* SignUpView.swift */,
+				8730E6DC28C85F6E00C73262 /* MainView.swift */,
 				8730E6D228C85F4900C73262 /* Assets.xcassets */,
 				8730E6D428C85F4900C73262 /* Preview Content */,
+				8730E6DE28C85F8600C73262 /* SubViewA1.swift */,
+				8730E6E028C85F9200C73262 /* SubViewA2.swift */,
+				8730E6E228C85F9D00C73262 /* SubViewA3.swift */,
+				8730E6E428C85FA800C73262 /* SubViewB1.swift */,
+				8730E6E628C85FB800C73262 /* SubViewB2.swift */,
 			);
 			path = "MiniApp91-SwiftUI-ChangingTopView";
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8730E6D128C85F4800C73262 /* ContentView.swift in Sources */,
+				8730E6DD28C85F6E00C73262 /* MainView.swift in Sources */,
+				8730E6E128C85F9200C73262 /* SubViewA2.swift in Sources */,
+				8730E6DF28C85F8600C73262 /* SubViewA1.swift in Sources */,
+				8730E6E728C85FB800C73262 /* SubViewB2.swift in Sources */,
+				8730E6E328C85F9D00C73262 /* SubViewA3.swift in Sources */,
+				8730E6E528C85FA800C73262 /* SubViewB1.swift in Sources */,
+				8730E6E928C85FC100C73262 /* SignUpView.swift in Sources */,
 				8730E6CF28C85F4800C73262 /* MiniApp91_SwiftUI_ChangingTopViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

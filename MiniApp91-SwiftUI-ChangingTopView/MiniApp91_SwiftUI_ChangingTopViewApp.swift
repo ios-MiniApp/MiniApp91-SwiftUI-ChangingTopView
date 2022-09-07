@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MiniApp91_SwiftUI_ChangingTopViewApp: App {
+    @AppStorage("isSignout") var isSignout: Bool = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignUpView()
         }
     }
 }
